@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devices-width, initial-scale=1">
+        <title>Web Pribadi</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="koleksi.html">Koleksi</a>
+            <a class="active" href="#">Form Input Profil</a>
+        </div>
+        <div>
+            <h1 class="center">Form Input Biodata Mahasiswa</h1>
+        </div>
+        <div>
+            <table border="1" align="center">
+                <form method="post/get" action="submit">
+                    <tr>
+                        <td>
+                            <label for="name">Nama</label>
+                        </td>
+                        <td><input type="name" id="name" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nim">NIM</label>
+                        </td>
+                        <td><input type="nim" id="nim"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tempat">Temapat</label>
+                        </td>
+                        <td><input type="tempat" id="tempat">
+                            <label for="tanggal">Tanggal Lahir</label>
+                            <input type="date" id="tanggal"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender</label>
+                        </td>
+                        <td>
+                            <select id="gender">
+                                <option value="Laki-Laki">Laki-Laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="agama">Agama</label>
+                        </td>
+                        <td>
+                            <select id="agama">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katholik">Katholik</option>
+                                <option value="Buddha">Buddha</option>
+                                <option value="Hindu">Hindu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Prodi</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="sistem informasi" name="pilihan">
+                            <label for="sistem informasi">S1-Sistem Informasi</label>
+                            <input type="radio" id="teknologi informasi" name="pilihan">
+                            <label for="teknologi informasi">S1-Teknologi Informasi</label><br>
+                            <input type="radio" id="teknik elektro" name="pilihan">
+                            <label for="teknik elektro">S1-Teknik Elektro</label>
+                            <input type="radio" id="teknik komputer" name="pilihan">
+                            <label for="teknik komputer">S1-Teknik Komputer</label><br>
+                            <input type="radio" id="teknik sipil" name="pilihan">
+                            <label for="teknik sipil">S1-teknik Sipil</label>
+                            <input type="radio" id="informatika" name="pilihan">
+                            <label for="informatika">S1-Informatika</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="matkul">Mata Kuliah</label></td>
+                            <td>
+                                <input type="radio" id="dw" name="matkul">
+                                <label for="dw">Desain Web</label>
+                                <input type="radio" id="kk" name="matkul">
+                                <label for="kk">Kalkulus</label><br>
+                                <input type="radio" id="bd" name="matkul">
+                                <label for="bd">Basis Data</label>
+                                <input type="radio" id="matdis" name="matkul">
+                                <label for="matdis">Matdis</label><br>
+                                <input type="radio" id="apli" name="matkul">
+                                <label for="apli">Aplikom</label>
+                                <input type="radio" id="dst" name="matkul">
+                                <label for="dst">dst</label>
+                                <input type="text" name="dst">
+                            </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Motivasi Hidup</label>
+                        </td>
+                        <td><textarea rows="10" cols="50" placeholder="ketikkan disini"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Upload Foto</label>
+                        </td>
+                        <td>
+                            <input type="file" name="foto">
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </body>
+</html>
